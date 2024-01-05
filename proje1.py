@@ -19,10 +19,10 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         
-        # Arka plan rengini ayarlayalım
+        
         palette = QtGui.QPalette()
-        palette.setColor(QtGui.QPalette.ColorRole.Window, QtGui.QColor(0, 0, 0))  # Siyah rengi ayarlayalım
-        palette.setColor(QtGui.QPalette.ColorRole.WindowText, QtGui.QColor(255, 255, 255))  # Yazı rengini beyaz yapalım
+        palette.setColor(QtGui.QPalette.ColorRole.Window, QtGui.QColor(0, 0, 0))  
+        palette.setColor(QtGui.QPalette.ColorRole.WindowText, QtGui.QColor(255, 255, 255))  
         MainWindow.setPalette(palette)
         
         self.p_matris = None
